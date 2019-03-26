@@ -1,0 +1,26 @@
+.editor-main{
+    border:1px solid #f00;
+    background:#ddd;
+}
+.editor-main > div:not(.editor-body){
+    padding:15px;
+}
+.editor-main .editor-body{
+    background:#fff;
+    padding:0 15px;
+}
+/* .editor-main > div.editor-body {
+    padding:0;
+} */
+.editor-main .editor-body textarea{
+    width:100%;
+    border:none;
+    resize: auto;
+    min-height: 200px;
+    max-width: 100%;
+    padding:0;
+    outline:none;
+    border:1px solid #ddd;
+    
+    
+}
